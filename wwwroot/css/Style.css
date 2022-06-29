@@ -1,0 +1,589 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+* {
+    padding: 0px;
+    margin: 0px;
+    transition: all .2s linear;
+    transition: width none;
+}
+
+body {
+    background-color: black;
+    /*background-image: url(https://wallpapercave.com/wp/Z9seCFU.jpg);*/
+}
+
+.img {
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/160/375/629/gaming-laptop-vibrant-4k-dark-wallpaper-preview.jpg);
+    background-size: cover;
+    height: 650px;
+    background-repeat: none;
+}
+
+header {
+    background-color: transparent;
+    border: 1px;
+}
+
+i.fas.fa-book {
+    color: rgb(224, 159, 38);
+    font-size: 30px;
+    padding: 15px 10px 10px 20px;
+}
+
+.upper-header-2 {
+    color: white;
+    font-size: medium;
+}
+
+ul {
+    text-decoration: none;
+    list-style-type: none;
+    display: inline-flex;
+    float: right;
+    margin: 24px 0px 0px 490px;
+    cursor: pointer;
+}
+
+    ul i {
+        padding-left: 38px;
+        padding-right: 15px;
+    }
+
+    ul :hover {
+        color: orange;
+    }
+
+.upper-header {
+    display: flex;
+}
+
+.search {
+    margin: 15px 0px 20px 610px;
+}
+
+    .search label:hover {
+        background-color: orange;
+        color: black;
+    }
+
+input#searchbar {
+    width: 400px;
+    border-radius: 10px;
+    padding: 5px 5px 5px 5px;
+}
+
+label {
+    border: 1px solid black;
+    background-color: white;
+    padding: 5px 5px 5px 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.login {
+    color: white;
+    height: 100%;
+    width: 100%;
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/160/375/629/gaming-laptop-vibrant-4k-dark-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+    right: 0;
+    position: fixed;
+}
+
+    .login .active {
+        right: 0;
+    }
+
+    .login form {
+        backdrop-filter: blur(5px);
+        background: rgba(252, 252, 252, 0);
+        width: 380px;
+        height: 300px;
+        z-index: 10000;
+        padding: 34px;
+        box-shadow: 0 8px 16px orange;
+        border-radius: 10px;
+        margin: 90px 0px 0px 430px;
+        position: fixed;
+    }
+
+h3 {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 0px 20px 0px;
+    color: orange;
+}
+
+.username span {
+    padding-right: 10px;
+}
+
+.password span {
+    padding-right: 10px;
+}
+
+.usermane, .password, .checkbox, .submit {
+    margin: 5px 5px 5px 5px;
+}
+
+    .checkbox label {
+        width: 120px;
+    }
+
+        .checkbox label:hover {
+            color: orange;
+            font-weight: bold;
+        }
+
+.checkbox {
+    float: left;
+}
+
+.submit {
+    padding: 1px;
+    width: 80px;
+    height: 30px;
+    float: right;
+}
+
+    .submit:hover {
+        background-color: orange;
+        color: black;
+        font-weight: bold;
+    }
+
+#forget {
+    padding-left: 150px;
+}
+
+.login p {
+    float: right;
+    padding: 10px 0px 20px 100px;
+}
+
+.login a {
+    text-decoration: none;
+    color: orange;
+}
+
+    .login a:hover {
+        color: white;
+        cursor: pointer;
+        text-decoration: underline orange;
+    }
+
+#close {
+    position: relative;
+    color: white;
+    top: 80px;
+    left: 950px;
+    cursor: pointer;
+    font-size: 26px;
+}
+
+.slider {
+    padding-left: 300px;
+}
+
+.swiper-slide img {
+    height: 250px;
+    border-radius: 4px;
+    margin-top: 50px;
+    margin-left: 0px;
+    justify-items: center;
+}
+
+.home a:hover {
+    transform: scale(.9);
+}
+
+img.shelf {
+    width: 750px;
+    margin-top: 30px;
+    margin-left: -10px;
+}
+
+/* --Arrival--*/
+.arrivals {
+    z-index: 50000;
+    box-shadow: inset 0 0 9px orange;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+    background-color: black;
+    margin: 20px 5px 20px 5px;
+    padding: 20px;
+}
+
+    .arrivals .box {
+        backdrop-filter: blur(5px);
+        background: rgb(10, 10, 8);
+        z-index: 20000;
+        box-shadow: inset 0 0 5px rgb(253, 253, 253);
+        border-radius: 10p;
+        box-sizing: border-box;
+        height: 300px;
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        padding-left: 30px;
+        margin: 16px 0;
+    }
+
+    .arrivals .arrivals-slider .box:hover {
+        border: 8px solid orange;
+    }
+
+    .arrivals .arrivals-slider .box .image img {
+        height: 200px;
+    }
+
+    .arrivals .arrivals-slider .box .content {
+        padding-left: 600px;
+    }
+
+        .arrivals .arrivals-slider .box .content h3 {
+            font-size: 28px;
+            color: rgb(250, 249, 248);
+            text-transform: capitalize;
+        }
+
+        .arrivals .arrivals-slider .box .content .price {
+            font-size: 20px;
+            color: rgb(255, 255, 255);
+            padding-bottom: 8px;
+        }
+
+            .arrivals .arrivals-slider .box .content .price span {
+                font-size: 18px;
+                text-decoration: line-through;
+            }
+
+        .arrivals .arrivals-slider .box .content .stars i {
+            font-size: 18px;
+            color: orange;
+        }
+
+/* --Popular--*/
+
+.popular {
+    z-index: 50000;
+    box-shadow: inset 0 0 9px orange;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+    background-color: black;
+    margin: 20px 5px 20px 5px;
+    padding: 20px;
+}
+
+    .popular .box {
+        margin: 20px 5px 20px 5px;
+    }
+
+        .popular .box:hover {
+            border: 8px solid orange;
+        }
+
+.reviews .box .image {
+    padding: 16px;
+    background: linear-gradient(15deg, rgb(19, 14, 14) 30%, rgb(255, 176, 29) 30.1%);
+}
+
+.popular .popular-slider .box:hover .image {
+    transform: translateY(96px);
+}
+
+.popular .popular-slider .box .image img {
+    height: 200px;
+}
+
+.popular .popular-slider .box .icons {
+    border-bottom: 8px solid orange;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    transform: translateY(-105%);
+}
+
+.popular .popular-slider .box:hover .icons {
+    transform: translateY(0%);
+}
+
+.popular .popular-slider .box .icons a {
+    color: white;
+    font-size: 32px;
+    padding: 10px 18px;
+    text-decoration: none;
+}
+
+    .popular .popular-slider .box .icons a:hover {
+        background: orange;
+        color: #fff;
+    }
+
+.popular .popular-slider .box .content {
+    padding: 10px 0px 20px 200px;
+    display: flex;
+}
+
+    .popular .popular-slider .box .content h3 {
+        font-size: 38px;
+        color: white;
+    }
+
+    .popular .popular-slider .box .content .price {
+        font-size: 32px;
+        color: white;
+        padding-top: 16px;
+    }
+
+        .popular .popular-slider .box .content .price span {
+            font-size: 32px;
+            color: white;
+            text-decoration: line-through;
+        }
+
+.swiper-button-next,
+.swiper-button-prev {
+    border: var(--border-hover);
+    height: 64px;
+    width: 64px;
+    color: whita;
+    background: black;
+}
+
+    .swiper-button-next::after,
+    .swiper-button-prev::after {
+        font-size: 32px;
+    }
+
+    .swiper-button-next:hover,
+    .swiper-button-prev:hover {
+        background: white;
+        color: black;
+    }
+
+/* --Review--*/
+#reviews {
+    z-index: 50000;
+    box-shadow: inset 0 0 9px orange;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+    background-color: black;
+    margin: 20px 5px 20px 5px;
+    padding: 20px;
+}
+
+.reviews .box {
+    margin: 20px 20px 20px 20px;
+    color: white;
+    font-size: 20px;
+    padding: 5px 5px 20px 5px;
+}
+
+.box:hover {
+    border: 8px solid orange;
+}
+
+.reviews h3 {
+    text-transform: capitalize;
+}
+
+.reviews p {
+    padding-left: 30px;
+}
+
+.reviews .stars i {
+    font-size: 18px;
+    color: orange;
+    padding-left: 5px;
+}
+
+.box {
+    backdrop-filter: blur(5px);
+    background: black;
+    z-index: 20000;
+    box-shadow: inset 0 0 5px rgb(253, 253, 253);
+    border-radius: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+/* --Blog-- */
+#blogs {
+    z-index: 50000;
+    box-shadow: inset 0 0 9px orange;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+    background-color: black;
+    margin: 20px 5px 20px 5px;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 42px;
+    color: orange;
+    font-weight: bold;
+    text-align: center;
+    text-transform: capitalize;
+    margin: 10px;
+}
+
+#blogs .box {
+    backdrop-filter: blur(5px);
+    background: orange;
+    z-index: 20000;
+    box-shadow: inset 0 0 5px rgb(253, 253, 253);
+    border-radius: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.blog .blogs-slider .box {
+    border: 8px solid black;
+}
+
+    .blog .blogs-slider .box:hover {
+        border: 8px solid rgb(253, 253, 252);
+    }
+
+.blog .blogs-slider.image {
+    height: 300px;
+    width: 100%;
+    overflow: hidden;
+}
+
+    .blog .blogs-slider .image img {
+        height: 300px;
+        width: 960px;
+        object-fit: cover;
+        padding-left: 60px;
+        padding-top: 0px;
+        border-radius: 9px;
+    }
+
+    .blog .blogs-slider .image img {
+        transform: scale(1.1);
+    }
+
+.blog .blogs-slider .box .content {
+    padding: 16px;
+}
+
+.content h3 {
+    font-size: 24px;
+    color: white;
+}
+
+.content p {
+    font-size: 20px;
+    color: white;
+    padding: 16px 0;
+    line-height: 2;
+}
+
+/* --Footer-- */
+
+.footer {
+    padding: 20px 20px 20px 20px;
+}
+
+    .footer .box-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        gap: 50px;
+    }
+
+    .footer .box {
+        backdrop-filter: blur(5px);
+        background: rgba(252, 252, 252, 0);
+        z-index: 10000;
+        box-shadow: 0 4px 6px orange;
+        border-radius: 4px;
+        padding: 5px;
+    }
+
+    .footer .box-container .box h3 {
+        font-size: 24px;
+        color: white;
+        padding: 16px 0px 0px 0px;
+    }
+
+    .footer .box-container .box a {
+        display: block;
+        font-size: 16px;
+        color: rgb(133, 131, 131);
+        padding: 16px 0px 0px 0px;
+        text-decoration: none;
+        transition: none;
+    }
+
+        .footer .box-container .box a i {
+            color: orange;
+            padding-left: 20px;
+        }
+
+        .footer .box-container .box a:hover {
+            text-decoration: underline orange;
+        }
+
+    .footer .box-container .box {
+        width: 100%;
+    }
+
+.social-links {
+    padding: 30px 0px 0px 0px;
+    text-align: center;
+    justify-content: center;
+}
+
+    .social-links a {
+        height: 50px;
+        width: 50px;
+        line-height: 42px;
+        font-size: 32px;
+        color: #fff;
+        background: orange;
+        margin: 0 4px;
+        border-radius: 50%;
+    }
+
+.footer .social-links a:hover {
+    color: black;
+}
+
+.footer .credit {
+    border-top: 8px solid orange;
+    margin-top: 32px;
+    padding: 0 16px;
+    padding-top: 3rem;
+    font-size: 32rem;
+    color: light-color;
+    text-align: center;
+}
+
+    .footer .credit span {
+        color: orange;
+    }
+
+
+
+
+
+
+@media(max-width: 991px) {
+}

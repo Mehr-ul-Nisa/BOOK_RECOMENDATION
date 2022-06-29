@@ -1,0 +1,604 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOK RECOMMENDATION</title>
+    <script src="https://kit.fontawesome.com/2f83e249bc.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" name="css/text" href="css/Style.css">
+    <script src="js/Script.js"></script>
+</head>
+<body>
+    <div class="img">
+        <header class="header">
+            <div class="upper-header">
+                <div class="upper-header-1">
+                    <a href="#" class="logo"><i class="fas fa-book"></i></a>
+                </div>
+                <div class="upper-header-2">
+                    <ul>
+                        <li><a ref="#"><i class="fas fa-home"></i>Home</a></li>
+                        <li><a ref="#"><i class="fas fa-list"></i>New Arrivals</a></li>
+                        <li><a ref="#"><i class="fas fa-tag"></i>Most Popular</a></li>
+                        <li><a ref="#"><i class="fas fa-comment"></i>Review</a></li>
+                        <li><a ref="#"><i class="fas fa-blog"></i>Blog</a></li>
+                        <li><div id="login-btn"><i class="fas fa-user"></i></div></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <div>
+            <form action="" class="search">
+                <input type="search" placeholder="Enter you want to Search" id="searchbar">
+                <label for="searchbar"><i class="fas fa-search"></i>Search</label>
+            </form>
+        </div>
+        <section class="home">
+            <div class="swiper slider">
+                <div class="swiper-wrapper">
+                    <a href="#" class="swiper-slide"><img src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/action-thriller-book-cover-design-template-3675ae3e3ac7ee095fc793ab61b812cc_screen.jpg?ts=1637008457" alt="book"></a>
+                    <a href="#" class="swiper-slide"><img src="http://www.designbookcover.pt/uploads/media/photos/cache/the_pen_and_the_sword_72_media_huge_thumbnail.jpg" alt="book"></a>
+                    <a href="#" class="swiper-slide"><img src="https://i.pinimg.com/236x/0c/ee/7e/0cee7e54fda8ac99ec11459448e89c7d.jpg" alt="book"></a>
+                    <a href="#" class="swiper-slide"><img src="https://s26162.pcdn.co/wp-content/uploads/2019/11/71j3RJ0ND2L-667x1024.jpg" alt="book"></a>
+                </div>
+                <img src="images/stand.png" class="shelf" alt="bookshelf">
+            </div>
+        </section>
+    </div>
+
+    <!--Sign In--->
+    <!--<div class="login">
+        <div id="close" class="fas fa-times"></div>
+        <form action="">
+            <h3>SIGN IN</h3>
+            <div class="username">
+                <span>UserName</span>
+                <input type="email" name="" placeholder="Enter your Email ID">
+            </div>
+        </br>
+            <div class="password">
+                <span>Password</span>
+                <input type="password" name="" placeholder="Enter your Password">
+            </div>
+        </br>
+            <div class="checkbox">
+                <input type="checkbox" id="remember me">
+                <label for="remember me">Remember Me</label>
+            </div>
+        </br>
+            <input type="submit" value="sign in" class="submit">
+        </br></br></br>
+            <p id="forget"> Forgrt password ?<a href="#">click here</a></p>
+        </br>
+            <p> Don't have an account ?<a href="#">Create One</a></p>
+
+        </form>
+        </div> -->
+    <!-- arrivals section starts  -->
+
+    <section class="arrivals" id="arrivals">
+
+        <h1 class="heading"> <span>new arrivals</span> </h1>
+
+        <div class="swiper arrivals-slider">
+
+            <div class="swiper-wrapper">
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="https://templates.mediamodifier.com/5dc8486ef5080d71fbaeae64/memory-lane-book-cover-template.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>new arrivals</h3>
+                        <div class="price">$15.99 <span>$20.99</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="https://www.streetlightgraphics.com/wp-content/gallery/horror/TheCryingCamefromtheTrees-800-Cover-reveal-and-Promotional.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>new arrivals</h3>
+                        <div class="price">$15.99 <span>$20.99</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="https://thebookcoverdesigner.com/wp-content/uploads/2018/02/Memories.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>new arrivals</h3>
+                        <div class="price">$15.99 <span>$20.99</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeFPUA2BGhRS__23DY_Fmt94nS8UdUe0gs0p9FR2MqMaSUu6ModxD8K_uWnqMd2nWITtc&usqp=CAU" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>new arrivals</h3>
+                        <div class="price">$15.99 <span>$20.99</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="https://i.pinimg.com/736x/41/11/cd/4111cde0752c52ddcd57c1a7bc05c580--wattpad-graphics-ask-me.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>new arrivals</h3>
+                        <div class="price">$15.99 <span>$20.99</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="swiper arrivals-slider">
+
+            <div class="swiper-wrapper">
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="https://s3.amazonaws.com/virginia.webrand.com/virginia/344/zAzI9L50QhW/4d4523c5587dc7210b9034028475262a.jpg?1622029375" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>new arrivals</h3>
+                        <div class="price">$15.99 <span>$20.99</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="https://www.adobe.com/express/create/cover/media_1f7a106c92cf2f05ba44cebd18452c2dd4a4bf2a4.jpeg?width=400&format=jpeg&optimize=medium" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>new arrivals</h3>
+                        <div class="price">$15.99 <span>$20.99</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/ladder-moon-book-cover-template-design-b1481f804c17c580070a64f94e9944ed_screen.jpg?ts=1637015165" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>new arrivals</h3>
+                        <div class="price">$15.99 <span>$20.99</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- arrivals section ends -->
+    <!-- Popular starts  -->
+
+    <section class="popular" id="popular">
+
+        <h1 class="heading"> <span>Most Popular books</span> </h1>
+
+        <div class="swiper popular-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/contemporary-fiction-night-time-book-cover-design-template-1be47835c3058eb42211574e0c4ed8bf_screen.jpg?ts=1637012564" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="price">$15.99 <span>$20.99</span></div>
+                        <a href="#" class="btn">add to cart</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/ladder-moon-book-cover-template-design-b1481f804c17c580070a64f94e9944ed_screen.jpg?ts=1637015165" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="price">$15.99 <span>$20.99</span></div>
+                        <a href="#" class="btn">add to cart</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/vintage-novel-kindle-book-cover-design-template-255f294cd4675f104c5272471013477a.jpg?ts=1636984087" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="price">$15.99 <span>$20.99</span></div>
+                        <a href="#" class="btn">add to cart</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="https://images-platform.99static.com//KLnpt6oNpJ70kT5-_UUv_JepH5I=/fit-in/500x500/projects-files/98/9835/983512/f8f4869a-3a32-45df-b7c3-6236bf736a15.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="price">$15.99 <span>$20.99</span></div>
+                        <a href="#" class="btn">add to cart</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1ir9wdelvBIXHUzjlEoC-vow0a4wn2BAGGjre6obPuwjtZ95FaOV02CihF5CTmEoCh3A&usqp=CAU" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="price">$15.99 <span>$20.99</span></div>
+                        <a href="#" class="btn">add to cart</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="https://www.drcodex.com/wp-content/uploads/2018/01/Book-Cover-Design-4.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="price">$15.99 <span>$20.99</span></div>
+                        <a href="#" class="btn">add to cart</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPdcLwEVds1bZuARkrbQB0ATQSfOSD3FtP_A&usqp=CAU" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="price">$15.99 <span>$20.99</span></div>
+                        <a href="#" class="btn">add to cart</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTe1Qe3p9cINKUiPjh_8jSOEyPeGILTxiQ3_aLcJ0YML9atWba86HyqESKNv9bSVg9DjDo&usqp=CAU" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="price">$15.99 <span>$20.99</span></div>
+                        <a href="#" class="btn">add to cart</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSId24j_O_WUceTVAFiVtsFx4rSPFJxPjkl_ogD5nHpEVbwj2cL09RPwyET_Y2nX-O4X7I&usqp=CAU" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="price">$15.99 <span>$20.99</span></div>
+                        <a href="#" class="btn">add to cart</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="https://miblart.com/wp-content/uploads/2020/01/crime-and-mystery-cover-scaled-1.jpeg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="price">$15.99 <span>$20.99</span></div>
+                        <a href="#" class="btn">add to cart</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+
+        </div>
+
+    </section>
+
+    <!-- Popular ends -->
+    <!-- Reviews starts  -->
+
+    <section class="reviews" id="reviews">
+
+        <h1 class="heading"> <span>client's reviews</span> </h1>
+
+        <div class="swiper reviews-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Hillary_Clinton_by_Gage_Skidmore_7.jpg/138px-Hillary_Clinton_by_Gage_Skidmore_7.jpg" alt="img">
+                    <h3>LADY</h3>
+                    <p>This book is good for reading.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Hillary_Clinton_by_Gage_Skidmore_7.jpg/138px-Hillary_Clinton_by_Gage_Skidmore_7.jpg" alt="img">
+                    <h3>LADY</h3>
+                    <p>This book is good for reading.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Hillary_Clinton_by_Gage_Skidmore_7.jpg/138px-Hillary_Clinton_by_Gage_Skidmore_7.jpg" alt="img">
+                    <h3>LADY</h3>
+                    <p>This book is good for reading.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Hillary_Clinton_by_Gage_Skidmore_7.jpg/138px-Hillary_Clinton_by_Gage_Skidmore_7.jpg" alt="img">
+                    <h3>LADY</h3>
+                    <p>This book is good for reading.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Hillary_Clinton_by_Gage_Skidmore_7.jpg/138px-Hillary_Clinton_by_Gage_Skidmore_7.jpg" alt="img">
+                    <h3>LADY</h3>
+                    <p>This book is good for reading.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Reviews ends -->
+    <!-- Blogs Starts  -->
+
+    <section class="blog" id="blogs">
+
+        <h1 class="heading"> <span>our blogs</span> </h1>
+        </br>
+        <div class="swiper blogs-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="https://software-educativo.com/wp-content/uploads/2021/01/mejores-plataformas-de-tutoria-en-linea.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Tutorials</h3>
+                        <p>Think about those essential skills you haven’t taught them. Think about those simple things you know how to do that they don’t.</p>
+                        <a href="#" class="btn">read more</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="https://cdn.corporatefinanceinstitute.com/assets/Industry.jpeg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3> Industry News</h3>
+                        <p>As a writer and expert, you should always keep up with what’s happening in your industry.If your readers know the latest happenings in your industry than you do, it’ll be tough to keep them coming back to your blog.</p>
+                        <a href="#" class="btn">read more</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="https://lseo.com/wp-content/uploads/2020/05/infographic-listicles-why-dominate-content-1.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Listicles</h3>
+                        <p>
+                            Listicles are a popular form of content both online and offline. Everyone loves lists.
+                            You can create a listicle on any topic. This article you’re reading is a listicle.
+                        </p>
+                        <a href="#" class="btn">read more</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzqOZmvxuMOUR8wt4BUBo2B_nRtV-XdkRFXw&usqp=CAU" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Interview</h3>
+                        <p>Interview popular and respected people in your industry. Bring them to your blog and ask them questions your readers care about.</p>
+                        <a href="#" class="btn">read more</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Blogs ends -->
+    <!-- Footer starts  -->
+
+    <section class="footer">
+
+        <div class="box-container">
+            <div class="box">
+                <h3>QUICK LINKS</h3>
+                <a href="#"> <i class="fas fa-arrow-right"></i> Home </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> Popular </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> Arrivals </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> Reviews </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> Blogs </a>
+            </div>
+
+            <div class="box">
+                <h3>EXTRA LINKS</h3>
+                <a href="#"> <i class="fas fa-arrow-right"></i> Account Info </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> Ordered Items </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> Privacy Policy </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> Payment Method </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> Our Serivces </a>
+            </div>
+
+            <div class="box">
+                <h3>CONTACT INFO</h3>
+                <a href="#"> <i class="fas fa-phone"></i> +45376346424 </a>
+                <a href="#"> <i class="fas fa-phone"></i> +37568675 </a>
+                <a href="#"> <i class="fas fa-envelope"></i> abc@gmail.com </a>
+
+            </div>
+
+        </div>
+
+        <div class="social-links">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+            <a href="#" class="fab fa-pinterest"></a>
+        </div>
+    </section>
+
+    <!-- Footer ends -->
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+</body>
+</html>
