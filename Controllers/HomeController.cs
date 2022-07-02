@@ -18,9 +18,17 @@ namespace bookshop.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Form(string fname, string lname, string mail, string p_no, string gen, string cust, string msg)
         {
-            return View();
+
+            if(fname == "" && lname == "" && mail == "" && p_no == ""&& gen == ""&& cust == ""&& msg == "") {
+                ViewBag.message = "Successful";
+            }
+            else
+            {
+                ViewBag.message = "Failed ";
+            }
+                return View();
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
