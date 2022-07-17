@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "lFJHpiphTC+Ljo7Gqe2hO7Rs6alCkR7mNAhSe4KXbvc=",
+  "Hash": "Q/0Y5kcehbFvmz2VyMgj+nIeU81TMJtUULugZJmyKBg=",
   "Source": "bookshop",
   "BasePath": "_content/bookshop",
   "Mode": "Default",
@@ -66,6 +66,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\hp\\OneDrive\\Desktop\\mehr\\6TH SEMESTER\\INTRODUCTION TO WEB DEVELOPMENT\\Muslim World\\backend\\bookrecomendation\\BOOK_RECOMENDATION\\wwwroot\\css\\sstyle.css",
+      "SourceId": "bookshop",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\hp\\OneDrive\\Desktop\\mehr\\6TH SEMESTER\\INTRODUCTION TO WEB DEVELOPMENT\\Muslim World\\backend\\bookrecomendation\\BOOK_RECOMENDATION\\wwwroot\\",
+      "BasePath": "_content/bookshop",
+      "RelativePath": "css/sstyle.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\sstyle.css"
     },
     {
       "Identity": "C:\\Users\\hp\\OneDrive\\Desktop\\mehr\\6TH SEMESTER\\INTRODUCTION TO WEB DEVELOPMENT\\Muslim World\\backend\\bookrecomendation\\BOOK_RECOMENDATION\\wwwroot\\css\\Style.css",

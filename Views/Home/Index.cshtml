@@ -1,9 +1,9 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Index Page";
 }
 
 @{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Index Page";
 }
 
 <!DOCTYPE html>
@@ -27,12 +27,13 @@
                 </div>
                 <div class="upper-header-2">
                     <ul>
-                        <li><a ref="#"><i class="fas fa-home"></i>Home</a></li>
-                        <li><a ref="#"><i class="fas fa-list"></i>New Arrivals</a></li>
-                        <li><a ref="#"><i class="fas fa-tag"></i>Most Popular</a></li>
-                        <li><a ref="#"><i class="fas fa-comment"></i>Review</a></li>
-                        <li><a ref="#"><i class="fas fa-blog"></i>Blog</a></li>
-                        <li><div id="login-btn"><i class="fas fa-user"></i></div></li>
+                        <li><a href="home.html"><i class="fas fa-home"></i>Home</a></li>
+                        <li><a href="#arrivals"><i class="fas fa-list"></i>New Arrivals</a></li>
+                        <li><a href="#popular"><i class="fas fa-tag"></i>Most Popular</a></li>
+                        <li><a href="#reviews"><i class="fas fa-comment"></i>Review</a></li>
+                        <li><a href="#blogs"><i class="fas fa-blog"></i>Blog</a></li>
+                        <li><a href="/Home/Register" id="register-btn" ><i class="fas fa-menu"></i></a></li>
+                        <li><a href="/Home/login" id="login-btn" ><i class="fas fa-user"></i></a></li>
                     </ul>
                 </div>
             </div>
@@ -499,7 +500,7 @@
     <section class="blog" id="blogs">
 
         <h1 class="heading"> <span>our blogs</span> </h1>
-        </br>
+        <br>
         <div class="swiper blogs-slider">
 
             <div class="swiper-wrapper">

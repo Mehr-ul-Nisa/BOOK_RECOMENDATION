@@ -15,7 +15,7 @@ body {
     background-image: url(https://c4.wallpaperflare.com/wallpaper/160/375/629/gaming-laptop-vibrant-4k-dark-wallpaper-preview.jpg);
     background-size: cover;
     height: 650px;
-    background-repeat: none;
+    background-repeat: no-repeat;
 }
 
 header {
@@ -29,9 +29,10 @@ i.fas.fa-book {
     padding: 15px 10px 10px 20px;
 }
 
-.upper-header-2 {
+.upper-header-2 a {
     color: white;
     font-size: medium;
+    text-decoration: none;
 }
 
 ul {
@@ -39,12 +40,12 @@ ul {
     list-style-type: none;
     display: inline-flex;
     float: right;
-    margin: 24px 0px 0px 490px;
+    margin: 20px 0px 0px 280px;
     cursor: pointer;
 }
 
     ul i {
-        padding-left: 38px;
+        padding-left: 25px;
         padding-right: 15px;
     }
 
@@ -72,10 +73,7 @@ input#searchbar {
 }
 
 label {
-    border: 1px solid black;
-    background-color: white;
     padding: 5px 5px 5px 5px;
-    border-radius: 10px;
     cursor: pointer;
 }
 
@@ -99,12 +97,12 @@ label {
         backdrop-filter: blur(5px);
         background: rgba(252, 252, 252, 0);
         width: 380px;
-        height: 300px;
+        height: 450px;
         z-index: 10000;
         padding: 34px;
         box-shadow: 0 8px 16px orange;
         border-radius: 10px;
-        margin: 90px 0px 0px 430px;
+        margin: 0px 0px 0px 430px;
         position: fixed;
     }
 
@@ -223,7 +221,7 @@ img.shelf {
         background: rgb(10, 10, 8);
         z-index: 20000;
         box-shadow: inset 0 0 5px rgb(253, 253, 253);
-        border-radius: 10p;
+        border-radius: 10px;
         box-sizing: border-box;
         height: 300px;
         font-size: 18px;
@@ -356,7 +354,7 @@ img.shelf {
     border: var(--border-hover);
     height: 64px;
     width: 64px;
-    color: whita;
+    color: white;
     background: black;
 }
 
@@ -570,7 +568,7 @@ h1 {
     padding: 0 16px;
     padding-top: 3rem;
     font-size: 32rem;
-    color: light-color;
+    color: grey;
     text-align: center;
 }
 

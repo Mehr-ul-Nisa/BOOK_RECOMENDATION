@@ -1,0 +1,45 @@
+﻿@{
+    ViewData["Title"] = "Register Page";
+}
+
+@{
+    ViewData["Title"] = "Register Page";
+}
+<h1>@ViewBag.message</h1>
+
+<html>
+    <head>
+        <title>REGISTER NOW</title>
+        <link rel="stylesheet" name="css/text" href="~/css/Style.css">
+        <script src="https://kit.fontawesome.com/2f83e249bc.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        <script src="~/js/Script.js"></script>
+    </head>
+    <body>
+        <!--Sign In--->
+    <div class="login">
+        <div id="close"><a href="/Home/Indexl"><i class="fas fa-times"></i></a></div>
+        <form class="form" method="post" action="/home/Register">
+            <h3>SIGN IN</h3>
+            <div class="username">
+                <span>UserName</span>
+                <input type="email" name="uname" placeholder="Enter your Email ID">
+            </div>
+        </br>
+            <div class="password">
+                <span>Password</span>
+                <input type="password" name="pswd" placeholder="Enter your Password">
+            </div>   
+        </br>
+            <div class="checkbox">
+                <input type="checkbox" id="remember me">
+                <label for="remember me">Remember Me</label>
+            </div>
+        </br>
+            <input type="submit" value="sign in" class="submit">
+        </br></br></br>
+       
+        </form>
+        </div> 
+    </body>
+</html>
